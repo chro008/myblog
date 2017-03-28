@@ -24,4 +24,5 @@ public class HomeController {
 	public String resetpwd() {
 		return "resetpwd";
 	}
+	
 }
