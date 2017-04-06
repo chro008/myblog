@@ -15,6 +15,7 @@ import org.springframework.http.HttpStatus;
 public class Application extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
+		System.out.println("just test intellij idea git func");
 		SpringApplication app = new SpringApplication(Application.class);
 		app.setWebEnvironment(true);
 		app.run(args);
